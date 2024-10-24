@@ -1,11 +1,10 @@
 # Dice Game
 
 ## Description
-an API REST that asks for a user to be identified and then to play with your user, unless if you are admin, to dice games where you win if you get a 7.
-There's also a leader and winrate of the users.
+A **RESTful API** where users must authenticate before participating in a dice game. Non-admin users can only play using their account, while admins have additional privileges. The game involves rolling two dice, and the user wins if the sum is 7. The system also tracks users' game history, including their win rate. Additionally, there is a leaderboard ranking users based on their performance.
 
 ## Installation
-you need to create the local mySQL database and mongoDB, both documents are in the repository.
+you need to create the local mySQL database.
 
 ## Technologies used
 * **Java 21**
